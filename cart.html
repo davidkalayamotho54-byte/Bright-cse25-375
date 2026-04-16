@@ -1,1 +1,51 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+</head>
+<body>
 
+<h1>Your Cart</h1>
+
+<div id="cart"></div>
+
+<p id="empty">Cart is empty</p>
+
+<script>
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  let cartDiv = document.getElementById("cart");
+  let emptyMsg = document.getElementById("empty");
+
+  function showCart() {
+    cartDiv.innerHTML = "";
+
+    if (cart.length === 0) {
+      emptyMsg.style.display = "block";
+      return;
+    } else {
+      emptyMsg.style.display = "none";
+    }
+
+    cart.forEach((item, index) => {
+      cartDiv.innerHTML += `
+        <p>
+          <b>${item.name}</b> - $${item.price}
+          <button onclick="removeItem(${index})">Remove</button>
+        </p>
+      `;
+    });
+  }
+
+  function removeItem(index) {
+    cart.splice(index, 1);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    showCart();
+  }
+
+  showCart();
+</script>
+
+</body>
+</html>
