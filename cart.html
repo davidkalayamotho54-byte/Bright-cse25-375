@@ -40,8 +40,8 @@
     cart.forEach((item, index) => {
       cartDiv.innerHTML += `
         <p>
-          <b>${item.name}</b> - $${item.price}
-          <button onclick="removeItem(${index})">Remove</button>
+          <b>P{item.name}</b> - PP{item.price}
+          <button onclick="removeItem(P{index})">Remove</button>
         </p>
       `;
     });
