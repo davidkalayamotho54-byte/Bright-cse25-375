@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout Page</title>
+</head>
+<body>
 
+    <h1>Checkout</h1>
+
+    
+    <h2>Payment Method</h2>
+
+    <form action="submit_order.html" method="post">
+
+        <input type="radio" name="payment" value="card" required> Credit/Debit Card<br>
+        <input type="radio" name="payment" value="mobile"> Mobile Money<br>
+        <input type="radio" name="payment" value="cash"> Cash on Delivery<br><br>
+
+        
+        <h3>Card Details (if applicable)</h3>
+
+        <label>Card Number:</label><br>
+        <input type="text" name="cardnumber"><br><br>
+
+        <label>Expiry Date:</label><br>
+        <input type="month" name="expiry"><br><br>
+
+        <label>CVV:</label><br>
+        <input type="password" name="cvv"><br><br>
+
+        
+      
+
+        <br>
+
+        
+        <button type="submit">Place Order</button>
+
+    </form>
+
+</body>
+</html>
