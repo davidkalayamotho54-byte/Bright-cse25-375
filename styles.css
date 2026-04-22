@@ -1,10 +1,11 @@
-nav a {
+.nav a {
+  display: flex;
   text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: black;
     padding: 8px 12px;
     border: 1px solid transparent;
-    position:top,left;
+    position: top, left;
  
 }
