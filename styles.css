@@ -1,11 +1,9 @@
 .header {
-  font-family: sans-serif;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  margin-left: 50px;
-  gap: 20px;
+
 
   
 }
