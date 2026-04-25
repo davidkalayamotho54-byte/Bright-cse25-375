@@ -120,3 +120,37 @@ footer p {
     margin-top: 20px;
     text-align: center;
 }
+.why {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: white;
+    margin-top: 30px;
+}
+
+.why-text {
+    width: 50%;
+}
+
+.why-text h2 {
+    margin-bottom: 15px;
+}
+
+.why-text ul {
+    list-style: none;
+}
+
+.why-text li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.why-image {
+    width: 45%;
+}
+
+.why-image img {
+    width: 100%;
+    border-radius: 10px;
+}
