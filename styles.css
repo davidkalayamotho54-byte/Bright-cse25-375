@@ -36,15 +36,15 @@ body {
     background: white;
     padding: 15px;
     border-radius: 10px;
-    width: 30%;   /* important for 3 in a row */
+    width: 30%;   
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .tractor-container {
-    display: flex;              /* makes items go horizontal */
-    justify-content: space-between; /* space between them */
-    gap: 20px;                  /* space between cards */
-    flex-wrap: wrap;            /* allows responsiveness */
+    display: flex;              
+    justify-content: space-between;
+    gap: 20px;                 
+    flex-wrap: wrap;            
 }
 
 #home {
@@ -99,7 +99,7 @@ section:nth-of-type(2) li {
     font-size: 16px;
 }
 
-/* FOOTER */
+
 footer {
     background: #2f5d3a;
     color: white;
@@ -168,6 +168,6 @@ footer p {
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 i {
-     color: #2f5d3a;
+     color: green;
     margin-right: 10px;
 }
