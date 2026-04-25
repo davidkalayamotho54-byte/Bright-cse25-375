@@ -32,7 +32,13 @@ body {
 .navbar a: hover {
     color: green;
 }
-
+.tractor-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;   /* important for 3 in a row */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
 
 .tractor-container {
     display: flex;              /* makes items go horizontal */
