@@ -1,1 +1,65 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
 
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* container */
+.tractor-list {
+    padding: 20px 40px;
+}
+
+/* each row */
+.tractor-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* image */
+.tractor-item img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* text */
+.tractor-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.tractor-info h3 {
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #2f5d3a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* button */
+button {
+    padding: 10px 20px;
+    border: 1px solid #2f5d3a;
+    background: transparent;
+    color: #2f5d3a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2f5d3a;
+    color: white;
+}
