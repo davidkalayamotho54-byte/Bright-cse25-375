@@ -34,6 +34,13 @@ body {
 }
 
 
+.tractor-container {
+    display: flex;              /* makes items go horizontal */
+    justify-content: space-between; /* space between them */
+    gap: 20px;                  /* space between cards */
+    flex-wrap: wrap;            /* allows responsiveness */
+}
+
 #home {
     text-align: center;
     padding: 40px 20px;
